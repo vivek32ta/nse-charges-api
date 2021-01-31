@@ -1,4 +1,4 @@
-const allowedOrigins = ["localhost"];
+const allowedOrigins = ["localhost","nsecharges.herokuapp.com"];
 
 module.exports = (req, res, next) => {
   let isDomainAllowed = allowedOrigins.indexOf(req.hostname) !== -1;
