@@ -4,6 +4,8 @@ This API calculates and returns an estimated value of the total charges, taxes, 
 ## Endpoints
 *Buy Price and Sell Price indicate the buying and selling price irrespective of whether the trade was a long or a short.*
 
+Live Link: https://nsecharges.herokuapp.com/api/intraday-equity/2000/2008/10
+
 ```
 [GET] /ping
 [GET] /api/intraday-equity/<Buy Price>/<Sell Price>/<Quantity>
@@ -14,7 +16,7 @@ This API calculates and returns an estimated value of the total charges, taxes, 
 ## Response
 ```
 {
-	gross-pnl: 40
+        gross-pnl: 40
 	total-charges: 11.22
 	net-pnl: 28.78
 	points-to-breakeven: 2.24
